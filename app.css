@@ -1,0 +1,53 @@
+:root{
+    --primary-color: #212529;
+    --secondary-color:#343A40;
+    --less-dark:#6C757D;
+
+    --light-color:#ADB5BD;
+    --lightest-color: #ADB5BD;
+    --moremore-lightest-color:#DEE2E6;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100dvh;
+    flex-direction: column;
+    background-color: #212529;
+}
+
+h1{
+    color: rgb(206, 160, 101);
+    font-size: 2rem;
+}
+
+.square{
+    width: 100px; 
+    height: 100px;
+}
+
+#gameboard{
+    display: flex;
+}
+
+.gameboard{
+    display: flex;
+}
+
+.beige{
+    background-color: var(--less-dark);
+}
+
+.brown{
+    background-color: var(--light-color);
+}
+
+#info{
+    height: 30px;
+}
+
+
+.drag-over{
+    background: var(--secondary-color)
+}

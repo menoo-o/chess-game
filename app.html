@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./app.css">
+    <title>Chess Drag</title>
+
+</head>
+<body>
+
+    <h1>JavaScript Drag and Drop Events with Chess Game</h1>
+    <!-- line1 -->
+    <div class="gameboard">
+        <div class="square beige">
+          <img src="./pics/pieces/castle-b.svg" id="castleBL" class="chess-piece castle-b"  width="100" height="100" draggable/>  
+        </div>
+        <div class="square brown">
+            <img src="./pics/pieces/knight-b.svg" id="knightBL" class="chess-piece knight-b"  width="100" height="100" draggable/>
+        </div>
+        <div class="square beige">
+            <img src="./pics/pieces/bishop-b.svg" id="bishopBL" class="chess-piece bishop-b"  width="100" height="100" draggable/>
+        </div>
+        <div class="square brown">
+            <img src="./pics/pieces/queen-b.svg" id="queenB" class="chess-piece queen-b"  width="100" height="100" draggable/>
+        </div>
+        <div class="square beige">
+            <img src="./pics/pieces/king-b.svg" id="kingB" class="chess-piece king-b"  width="100" height="100" draggable/>
+          </div>
+          <div class="square brown">
+            <img src="./pics/pieces/bishop-b.svg" id="bishopBR" class="chess-piece bishop-b"  width="100" height="100" draggable/>
+          </div>
+          <div class="square beige">
+            <img src="./pics/pieces/knight-b.svg" id="knightBR" class="chess-piece knight-b"  width="100" height="100" draggable/>
+          </div>
+          <div class="square brown">
+            <img src="./pics/pieces/castle-b.svg" id="castleBR" class="chess-piece castle-b"  width="100" height="100" draggable/>
+          </div>  
+    </div>
+
+    <!-- line2 -->
+    <div class="gameboard">
+        <div class="square brown">
+            <img src="./pics/pieces/bpawn-b.svg" class="chess-piece bpawn-b"  width="100" height="100" draggable/>
+        </div>
+        <div class="square beige">
+            <img src="./pics/pieces/bpawn-b.svg" class="chess-piece bpawn-b"  width="100" height="100" draggable/>
+        </div>
+        <div class="square brown">
+            <img src="./pics/pieces/bpawn-b.svg" class="chess-piece bpawn-b"  width="100" height="100" draggable/>
+        </div>
+        <div class="square beige">
+            <img src="./pics/pieces/bpawn-b.svg" class="chess-piece bpawn-b"  width="100" height="100" draggable/>
+        </div>
+        <div class="square brown">
+            <img src="./pics/pieces/bpawn-b.svg" class="chess-piece bpawn-b"  width="100" height="100" draggable/>
+          </div>
+          <div class="square beige">
+            <img src="./pics/pieces/bpawn-b.svg" class="chess-piece bpawn-b"  width="100" height="100" draggable/>
+        </div>
+          <div class="square brown">
+            <img src="./pics/pieces/bpawn-b.svg" class="chess-piece bpawn-b"  width="100" height="100" draggable/>
+        </div>
+          <div class="square beige">
+            <img src="./pics/pieces/bpawn-b.svg" class="chess-piece bpawn-b"  width="100" height="100" draggable/>
+        </div>  
+    </div>
+
+    <!-- line3 -->
+    <div class="gameboard">
+        <div class="square beige">
+          <!-- <img src="./pics/king.png" alt="king piece" id="king" class="chess-piece"  width="100" height="100" draggable/>   -->
+        </div>
+        <div class="square brown"></div>
+        <div class="square beige"></div>
+        <div class="square brown"></div>
+        <div class="square beige">
+            <!-- <img src="./pics/king.png" alt="king piece" id="king" class="chess-piece"  width="100" height="100" draggable/>   -->
+          </div>
+          <div class="square brown"></div>
+          <div class="square beige"></div>
+          <div class="square brown"></div>
+        
+    </div>
+
+    <!-- line4 -->
+    <div class="gameboard">
+        <div class="square brown">
+          <!-- <img src="./pics/king.png" alt="king piece" id="king" class="chess-piece"  width="100" height="100" draggable/>   -->
+        </div>
+        <div class="square beige"></div>
+        <div class="square brown"></div>
+        <div class="square beige"></div>
+        <div class="square brown">
+            <!-- <img src="./pics/king.png" alt="king piece" id="king" class="chess-piece"  width="100" height="100" draggable/>   -->
+          </div>
+          <div class="square beige"></div>
+          <div class="square brown"></div>
+          <div class="square beige"></div>
+        
+    </div>
+
+    <!-- line5 -->
+    <div class="gameboard">
+        <div class="square beige">
+          <!-- <img src="./pics/king.png" alt="king piece" id="king" class="chess-piece"  width="100" height="100" draggable/>   -->
+        </div>
+        <div class="square brown"></div>
+        <div class="square beige"></div>
+        <div class="square brown"></div>
+        <div class="square beige">
+            <!-- <img src="./pics/king.png" alt="king piece" id="king" class="chess-piece"  width="100" height="100" draggable/>   -->
+          </div>
+          <div class="square brown"></div>
+          <div class="square beige"></div>
+          <div class="square brown"></div>
+        
+    </div>
+
+    <!-- line6 -->
+    <div class="gameboard">
+        <div class="square brown">
+          <!-- <img src="./pics/king.png" alt="king piece" id="king" class="chess-piece"  width="100" height="100" draggable/>   -->
+        </div>
+        <div class="square beige"></div>
+        <div class="square brown"></div>
+        <div class="square beige"></div>
+        <div class="square brown">
+            <!-- <img src="./pics/king.png" alt="king piece" id="king" class="chess-piece"  width="100" height="100" draggable/>   -->
+          </div>
+          <div class="square beige"></div>
+          <div class="square brown"></div>
+          <div class="square beige"></div>
+        
+    </div>
+
+    <!-- line7 -->
+    <div class="gameboard">
+        <div class="square beige">
+            <img src="./pics/pieces/bpawn-w.svg" class="chess-piece bpawn-w"  width="100" height="100" draggable/>
+        </div>
+        <div class="square brown">
+            <img src="./pics/pieces/bpawn-w.svg" class="chess-piece bpawn-w"  width="100" height="100" draggable/>
+        </div>
+        <div class="square beige">
+            <img src="./pics/pieces/bpawn-w.svg" class="chess-piece bpawn-w"  width="100" height="100" draggable/>
+        </div>
+        <div class="square brown">
+            <img src="./pics/pieces/bpawn-w.svg" class="chess-piece bpawn-w"  width="100" height="100" draggable/>
+
+        </div>
+        <div class="square beige">
+            <img src="./pics/pieces/bpawn-w.svg" class="chess-piece bpawn-w"  width="100" height="100" draggable/>
+
+          </div>
+          <div class="square brown">
+            <img src="./pics/pieces/bpawn-w.svg" class="chess-piece bpawn-w"  width="100" height="100" draggable/>
+
+          </div>
+          <div class="square beige">
+            <img src="./pics/pieces/bpawn-w.svg" class="chess-piece bpawn-w"  width="100" height="100" draggable/>
+
+          </div>
+          <div class="square brown">
+            <img src="./pics/pieces/bpawn-w.svg" class="chess-piece bpawn-w"  width="100" height="100" draggable/>
+          </div>
+        
+    </div>
+
+    <!-- line8 -->
+    <div class="gameboard">
+        <div class="square brown">
+            <img src="./pics/pieces/castle-w.svg" id="castleWL" class="chess-piece castle-w"  width="100" height="100" draggable/>
+        </div>
+
+        <div class="square beige">
+            <img src="./pics/pieces/knight-w.svg"  id="knightWL" class="chess-piece knight-w"  width="100" height="100" draggable/>
+        </div>
+
+        <div class="square brown">
+            <img src="./pics/pieces/bishop-w.svg"  id="bishopWL" class="chess-piece bishop-w"  width="100" height="100" draggable/>
+        </div>
+
+        <div class="square beige">
+            <img src="./pics/pieces/queen-w.svg"   id="queenWL" class="chess-piece queen-w"  width="100" height="100" draggable/>
+        </div>
+
+        <div class="square brown">
+            <img src="./pics/pieces/king-w.svg"  id="kingW"  class="chess-piece king-w"  width="100" height="100" draggable/>
+        </div>
+
+          <div class="square beige">
+            <img src="./pics/pieces/bishop-w.svg"  id="castleWR" class="chess-piece bishop-w"  width="100" height="100" draggable/>
+          </div>
+
+          <div class="square brown">
+            <img src="./pics/pieces/knight-w.svg"  id="castleWR" class="chess-piece knight-w"  width="100" height="100" draggable/>
+        </div>
+
+          <div class="square beige">
+            <img src="./pics/pieces/castle-w.svg"  id="castleWR" id="castleWR" class="chess-piece castle-w"  width="100" height="100" draggable/>
+          </div>
+        
+    </div>
+
+
+    
+
+    
+
+    
+
+    <p id="info"></p>
+
+
+    <script src="./index.js"></script>
+</body>
+</html>
